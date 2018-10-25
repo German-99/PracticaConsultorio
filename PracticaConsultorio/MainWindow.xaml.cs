@@ -66,5 +66,6 @@ namespace PracticaConsultorio
         {
             GridNuevoPaciente.Visibility = Visibility.Visible;
         }
+        
     }
 }
