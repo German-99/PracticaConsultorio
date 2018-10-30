@@ -8,6 +8,10 @@ namespace PracticaConsultorio
 {
     class Datos
     {
-        public static List<Paciente> pacientes = new List<Paciente>();
+        public static List<Paciente> pacientes =
+            new List<Paciente>();
+
+        public static List<Consulta> consultas =
+            new List<Consulta>();
     }
 }

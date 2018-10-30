@@ -8,10 +8,10 @@ namespace PracticaConsultorio
 {
     class Consulta
     {
-        public Paciente pacienteActual { get; set; }
+        public Paciente PacienteActual { get; set; }
         public string Sintomas { get; set; }
         public string Diagnostico { get; set; }
         public string Receta { get; set; }
-        public DateTime Fecha { get; set; }
+        public DateTime fecha { get; set; }
     }
 }
